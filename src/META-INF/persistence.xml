@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="JPATestPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>test.BsProteoxUserMails</class>
+    <class>test.BsProteoxHolidays</class>
+    <class>test.BsProteoxCa3SettlmntDtl</class>
+    <class>test.BsProteoxCa3CrossComponent</class>
+    <class>test.BsProteoxClAccounts</class>
+    <class>test.BsProteoxHistoricDeals</class>
+    <class>test.BsProteoxBsoEmailgestor</class>
+    <class>test.BsProteoxDealLegType</class>
+    <class>test.BsProteox2tradeUsers</class>
+    <class>test.BsProteoxBsoViewType</class>
+    <class>test.BsProteoxRolloverRuleDays</class>
+    <class>test.BsProteoxClGenericClients</class>
+    <class>test.BsProteoxCurrencies</class>
+    <class>test.BsProteoxClDistribucion</class>
+    <class>test.BsProteoxLiveRates</class>
+    <class>test.BsProteoxDeals</class>
+    <class>test.BsProteoxCa2Key</class>
+    <class>test.BsProteoxPanels</class>
+    <class>test.BsProteoxTsbClient</class>
+    <class>test.BsProteoxRetUsers</class>
+    <class>test.BsProteoxCurrencyPairs</class>
+    <class>test.BsProteoxDateRules</class>
+    <class>test.BsProteoxCa2Message</class>
+    <class>test.BsProteoxRetUsersJuan</class>
+    <class>test.BsProteoxOperationMode</class>
+    <class>test.BsProteoxClParrFwd</class>
+    <class>test.BsProteoxRetUsersPool</class>
+    <class>test.BsProteoxClUserSet</class>
+    <class>test.BsProteoxWorkspaceItemBso</class>
+    <class>test.BsProteoxCa3</class>
+    <class>test.BsProteoxWorkspaces</class>
+    <class>test.BsProteoxSecurityContext</class>
+    <class>test.BsProteoxContextType</class>
+    <class>test.BsProteoxWeekendRuleDays</class>
+    <class>test.BsProteoxChannels</class>
+    <class>test.BsProteoxTenors</class>
+    <class>test.BsProteoxCa3Leg</class>
+    <class>test.BsProteoxWeekendRules</class>
+    <class>test.BsProteoxUserPermissions</class>
+    <class>test.BsProteoxRateRules</class>
+    <class>test.BsProteoxVipUsersBso</class>
+    <class>test.BsProteoxClParrSpot</class>
+    <class>test.BsProteoxClGenericSet</class>
+    <class>test.BsProteoxClients</class>
+    <class>test.BsProteoxUserPreferences</class>
+    <class>test.BsProteoxClTradeClient</class>
+    <class>test.BsProteoxOperations</class>
+    <class>test.BsProteoxDealLegs</class>
+    <class>test.BsProteoxRolloverRules</class>
+    <class>test.BsProteoxDo1</class>
+    <class>test.BsProteoxCalendars</class>
+    <class>test.BsProteoxLocales</class>
+    <class>test.BsProteoxWorkspacesBso</class>
+    <class>test.BsProteoxHistoricDealsD</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@srvoptibbddjava.optimissa.into:1521:xe"/>
+      <property name="javax.persistence.jdbc.user" value="BDD_PROTEOX"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="Optimissa123"/>
+    </properties>
+  </persistence-unit>
+</persistence>
